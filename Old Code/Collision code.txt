@@ -1,0 +1,134 @@
+  int ClassifyPoint( vector<float> vNorm, vector<float> pt, float distance, bool prt )
+  {
+	  float p = ColVector::dotProduct( vNorm, pt ) + distance;
+		if(prt == true) {
+			output(p);
+		}
+		//output(vNorm[0]);
+
+        if( p > 0.0f ) {
+			return 0;
+		}
+        else if( p < 0.0f ) {
+			return 1;
+		}
+        return 2;
+  }
+
+LRESULT	CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);	// Declaration For WndProc
+bool collision(vector<float> startPoint,vector<float> direction) {
+	int numtriangles = sector1.numtriangles;
+	boolean coll = false;
+	vector<float> dest;
+	dest.push_back(startPoint[0] + (direction[0]*6));
+	dest.push_back(startPoint[1] + (direction[1]*6));
+	dest.push_back(startPoint[2] + (direction[2]*6));
+	output("start");
+	output(startPoint[0]);
+	output(startPoint[1]);
+	output(startPoint[2]);
+	output("Dest");
+	output(direction[0]);
+	output(direction[1]);
+	output(direction[2]);
+	for (int loop_m = 0; loop_m < numtriangles; loop_m++) {
+		vector<float> vN1;
+		vector<float> vN2;
+		vector<float> vNorm;
+		vector<float> p1;
+		vector<float> p2;
+		vector<float> p3;
+		p1.push_back(sector1.triangle[loop_m].vertex[1].x);
+		p1.push_back(sector1.triangle[loop_m].vertex[1].y);
+		p1.push_back(sector1.triangle[loop_m].vertex[1].z);
+		p2.push_back(sector1.triangle[loop_m].vertex[0].x);
+		p2.push_back(sector1.triangle[loop_m].vertex[0].y);
+		p2.push_back(sector1.triangle[loop_m].vertex[0].z);
+		p3.push_back(sector1.triangle[loop_m].vertex[2].x);
+		p3.push_back(sector1.triangle[loop_m].vertex[2].y);
+		p3.push_back(sector1.triangle[loop_m].vertex[2].z);
+
+		vN1.push_back(sector1.triangle[loop_m].vertex[1].x - sector1.triangle[loop_m].vertex[0].x);
+		vN1.push_back(sector1.triangle[loop_m].vertex[1].y - sector1.triangle[loop_m].vertex[0].y);
+		vN1.push_back(sector1.triangle[loop_m].vertex[1].z - sector1.triangle[loop_m].vertex[0].z);
+
+		vN2.push_back(sector1.triangle[loop_m].vertex[2].x - sector1.triangle[loop_m].vertex[1].x);
+		vN2.push_back(sector1.triangle[loop_m].vertex[2].y - sector1.triangle[loop_m].vertex[1].y);
+		vN2.push_back(sector1.triangle[loop_m].vertex[2].z - sector1.triangle[loop_m].vertex[1].z);
+
+		vNorm.push_back(vN1[1] * vN2[2] - vN1[2] * vN2[1]);
+		vNorm.push_back(vN1[2] * vN2[0] - vN1[0] * vN2[2]);
+		vNorm.push_back(vN1[0] * vN2[1] - vN1[1] * vN2[0]);
+
+		float magnitude = sqrt((vNorm[0]*vNorm[0]) + (vNorm[1]*vNorm[1]) + (vNorm[2]*vNorm[2]));
+		vNorm[0] = vNorm[0]/magnitude;
+		vNorm[1] = vNorm[1]/magnitude;
+		vNorm[2] = vNorm[2]/magnitude;
+
+
+		float distance = ColVector::dotProduct(vNorm,p1);
+		if(ClassifyPoint(vNorm,startPoint,distance,false) == ClassifyPoint(vNorm,dest,distance,false)) {
+			continue;
+		}
+
+		output(sector1.triangle[loop_m].loc);
+
+		float top = -(ColVector::dotProduct(vNorm,startPoint) + distance);
+		float bottom = ColVector::dotProduct(vNorm,direction);
+		if(bottom < 0.00001 && bottom > -0.00001) {
+			continue;
+		}
+		float t = top/bottom;
+		vector<float> rayXt;
+		rayXt.push_back(direction[0] * t);
+		rayXt.push_back(direction[1] * t);
+		rayXt.push_back(direction[2] * t);
+		vector<float> intersect;
+		intersect.push_back(startPoint[0] + rayXt[0]);
+		intersect.push_back(startPoint[1] + rayXt[1]);
+		intersect.push_back(startPoint[2] + rayXt[2]);
+		vector<float> v1;
+		vector<float> v2;
+		vector<float> v3;
+
+		v1.push_back(-sector1.triangle[loop_m].vertex[0].x - intersect[0]);
+		v1.push_back(sector1.triangle[loop_m].vertex[0].y - intersect[1]);
+		v1.push_back(-sector1.triangle[loop_m].vertex[0].z - intersect[2]);
+		v2.push_back(-sector1.triangle[loop_m].vertex[1].x - intersect[0]);
+		v2.push_back(sector1.triangle[loop_m].vertex[1].y - intersect[1]);
+		v2.push_back(-sector1.triangle[loop_m].vertex[1].z - intersect[2]);
+		v3.push_back(-sector1.triangle[loop_m].vertex[2].x - intersect[0]);
+		v3.push_back(sector1.triangle[loop_m].vertex[2].y - intersect[1]);
+		v3.push_back(-sector1.triangle[loop_m].vertex[2].z - intersect[2]);
+
+
+		magnitude = sqrtf((v1[0]*v1[0]) + (v1[1]*v1[1]) + (v1[2]*v1[2]));
+		v1[0] = v1[0]/magnitude;
+		v1[1] = v1[1]/magnitude;
+		v1[2] = v1[2]/magnitude;
+		magnitude = sqrtf((v2[0]*v2[0]) + (v2[1]*v2[1]) + (v2[2]*v2[2]));
+		v2[0] = v2[0]/magnitude;
+		v2[1] = v2[1]/magnitude;
+		v2[2] = v2[2]/magnitude;
+		magnitude = sqrtf((v3[0]*v3[0]) + (v3[1]*v3[1]) + (v3[2]*v3[2]));
+		v3[0] = v3[0]/magnitude;
+		v3[1] = v3[1]/magnitude;
+		v3[2] = v3[2]/magnitude;
+
+
+		output(acos(ColVector::dotProduct(v2, v3)));
+		output(acos(ColVector::dotProduct(v3, v1)));
+		output(acos(ColVector::dotProduct(v1, v2)));
+		float thetaSum = acos(ColVector::dotProduct(v1, v2)) 
+             + acos(ColVector::dotProduct(v2, v3)) 
+             + acos(ColVector::dotProduct(v3, v1));
+		output(fabs(thetaSum - (2*PI)));
+		if (fabs(thetaSum - (2*PI)) < 0.1) {
+			coll = true;
+			break;
+		}
+		else
+			continue;
+		}
+	return coll;
+}

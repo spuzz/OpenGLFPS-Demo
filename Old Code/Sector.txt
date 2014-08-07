@@ -1,0 +1,67 @@
+			//if(y == 1) {
+			//	totalHeight += 1;
+			//}
+			//if(location.find("floor") == 0) {
+			//	sector1.triangle[loop].loc = "floor";
+			//}
+			//else if(location.find("wall") == 0) {
+			//	sector1.triangle[loop].loc = "wall";
+			//}
+			//else if(location.find("ceil") == 0) {
+			//	sector1.triangle[loop].loc = "ceiling";
+			//}
+			//else if(location.find("door") == 0) {
+			//	sector1.triangle[loop].loc = "door";
+			//}
+			//sector1.triangle[loop].vertex[vert].x = x;
+			//sector1.triangle[loop].vertex[vert].y = y;
+			//sector1.triangle[loop].vertex[vert].z = z;
+			//sector1.triangle[loop].vertex[vert].u = u;
+			//sector1.triangle[loop].vertex[vert].v = v;
+
+
+	//int loop = 0;
+	//for(int a=0;a<models.size();a++) {
+	//	for(int b = 0; b < models[a]->display.getPolys().size(); b++) {
+	//		for(int c = 0; c < models[a]->display.getPolys()[b]->getShape(); c++) {
+	//			int vert = c;
+	//			if(vert == 3) {
+	//				loop += 1;
+	//			}
+	//			if(vert > 2) {
+	//				vert = vert -3;
+	//			}
+	//			sector1.triangle[loop].loc = models[a]->getName();
+	//			sector1.triangle[loop].vertex[vert].x = models[a]->display.getPolys()[b]->getVertex(c).getX();
+	//			sector1.triangle[loop].vertex[vert].y = models[a]->display.getPolys()[b]->getVertex(c).getY();
+	//			sector1.triangle[loop].vertex[vert].z = models[a]->display.getPolys()[b]->getVertex(c).getZ();
+	//			sector1.triangle[loop].vertex[vert].u = models[a]->display.getPolys()[b]->getVertex(c).getU();
+	//			sector1.triangle[loop].vertex[vert].v = models[a]->display.getPolys()[b]->getVertex(c).getV();
+	//		}
+	//		loop += 1;
+	//	}
+	//}
+
+		//glBegin(GL_TRIANGLES);
+		//	glNormal3f( 0.0f, 0.0f, 1.0f);
+		//	x_m = sector1.triangle[loop_m].vertex[0].x;
+		//	y_m = sector1.triangle[loop_m].vertex[0].y;
+		//	z_m = sector1.triangle[loop_m].vertex[0].z;
+		//	u_m = sector1.triangle[loop_m].vertex[0].u;
+		//	v_m = sector1.triangle[loop_m].vertex[0].v;
+		//	glTexCoord2f(u_m,v_m); glVertex3f(x_m,y_m,z_m);
+		//	
+		//	x_m = sector1.triangle[loop_m].vertex[1].x;
+		//	y_m = sector1.triangle[loop_m].vertex[1].y;
+		//	z_m = sector1.triangle[loop_m].vertex[1].z;
+		//	u_m = sector1.triangle[loop_m].vertex[1].u;
+		//	v_m = sector1.triangle[loop_m].vertex[1].v;
+		//	glTexCoord2f(u_m,v_m); glVertex3f(x_m,y_m,z_m);
+		//	
+		//	x_m = sector1.triangle[loop_m].vertex[2].x;
+		//	y_m = sector1.triangle[loop_m].vertex[2].y;
+		//	z_m = sector1.triangle[loop_m].vertex[2].z;
+		//	u_m = sector1.triangle[loop_m].vertex[2].u;
+		//	v_m = sector1.triangle[loop_m].vertex[2].v;
+		//	glTexCoord2f(u_m,v_m); glVertex3f(x_m,y_m,z_m);
+		//glEnd();
