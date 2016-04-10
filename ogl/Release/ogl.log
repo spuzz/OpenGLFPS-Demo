@@ -1,94 +1,168 @@
-﻿Base.cpp(44): warning C4244: 'initializing' : conversion from 'const double' to 'const int', possible loss of data
-Base.cpp(95): warning C4305: 'argument' : truncation from 'double' to 'float'
-Base.cpp(102): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-Base.cpp(119): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-Base.cpp(128): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-Base.cpp(130): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-Base.cpp(147): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-Base.cpp(154): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-Base.cpp(157): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-Base.cpp(159): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
-Base.cpp(160): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
-Base.cpp(161): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
-Base.cpp(171): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-Base.cpp(193): warning C4305: '=' : truncation from '__int64' to 'float'
-Base.cpp(200): warning C4018: '<' : signed/unsigned mismatch
-Base.cpp(289): warning C4018: '<' : signed/unsigned mismatch
-Base.cpp(260): warning C4101: 'x_m' : unreferenced local variable
-Base.cpp(260): warning C4101: 'u_m' : unreferenced local variable
-Base.cpp(260): warning C4101: 'v_m' : unreferenced local variable
-Base.cpp(260): warning C4101: 'y_m' : unreferenced local variable
-Base.cpp(260): warning C4101: 'z_m' : unreferenced local variable
-Base.cpp(343): warning C4244: 'argument' : conversion from 'GLsizei' to 'float', possible loss of data
-Base.cpp(343): warning C4244: 'argument' : conversion from 'GLsizei' to 'float', possible loss of data
-Base.cpp(748): warning C4305: 'argument' : truncation from 'double' to 'float'
-Base.cpp(765): warning C4305: 'initializing' : truncation from 'double' to 'float'
-Base.cpp(766): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
-Base.cpp(814): warning C4305: 'initializing' : truncation from 'double' to 'float'
-Base.cpp(815): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
-Collision.cpp(53): warning C4018: '<' : signed/unsigned mismatch
-Collision.cpp(67): warning C4018: '<' : signed/unsigned mismatch
-Collision.cpp(121): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
-Collision.cpp(167): warning C4018: '<' : signed/unsigned mismatch
-Collision.cpp(169): warning C4305: '=' : truncation from 'double' to 'float'
-Collision.cpp(204): warning C4553: '==' : operator has no effect; did you intend '='?
-Collision.cpp(247): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
-GLlists.cpp(25): warning C4244: 'initializing' : conversion from 'const double' to 'const int', possible loss of data
-GLlists.cpp(38): warning C4244: '+=' : conversion from 'const double' to 'int', possible loss of data
-GLlists.cpp(39): warning C4244: '+=' : conversion from 'const double' to 'int', possible loss of data
-GLlists.cpp(40): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-GLlists.cpp(41): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-GLlists.cpp(42): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-GLlists.cpp(43): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-GLlists.cpp(44): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-GLlists.cpp(47): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-GLlists.cpp(48): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-GLlists.cpp(49): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-GLlists.cpp(50): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
-GLlists.cpp(51): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-GLlists.cpp(54): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-GLlists.cpp(55): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-GLlists.cpp(56): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-GLlists.cpp(57): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-GLlists.cpp(58): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
-GLlists.cpp(61): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-GLlists.cpp(62): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-GLlists.cpp(63): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-GLlists.cpp(64): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
-GLlists.cpp(65): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
-GLlists.cpp(34): warning C4101: 'a' : unreferenced local variable
-GLlists.cpp(35): warning C4101: 'b' : unreferenced local variable
-GLlists.cpp(80): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
-GLlists.cpp(80): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
-GLlists.cpp(111): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-GLlists.cpp(111): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-GLlists.cpp(111): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-GLlists.cpp(112): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-GLlists.cpp(112): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-GLlists.cpp(112): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-GLlists.cpp(113): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-GLlists.cpp(113): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-GLlists.cpp(113): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-GLlists.cpp(114): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-GLlists.cpp(114): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-GLlists.cpp(114): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-GLlists.cpp(148): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-GLlists.cpp(148): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-GLlists.cpp(148): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-GLlists.cpp(149): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-GLlists.cpp(149): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-GLlists.cpp(149): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-GLlists.cpp(150): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-GLlists.cpp(150): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-GLlists.cpp(150): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-GLlists.cpp(151): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-GLlists.cpp(151): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-GLlists.cpp(151): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-lighting.cpp(34): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
-lighting.cpp(36): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
-lighting.cpp(38): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
-lighting.cpp(40): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
-lighting.cpp(42): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
-lighting.cpp(49): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
-lighting.cpp(52): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
-c:\data\visual studio 2010\projects\ogl\ogl\colvector.cpp(21): warning C4700: uninitialized local variable 'tmp' used
+﻿Build started 10/04/2016 13:06:33.
+     1>Project "C:\GameDev\OpenGLFPS-Demo\ogl\ogl.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Base.cpp bmp.cpp bullet.cpp button.cpp Collision.cpp ColVector.cpp door.cpp element.cpp fakemodel.cpp GLlists.cpp gui.cpp interactive.cpp lighting.cpp menu.cpp model.cpp ModelControl.cpp Output.cpp player.cpp shape.cpp polygon.cpp solid.cpp texLoad.cpp vertex.cpp
+         Base.cpp
+     1>Base.cpp(44): warning C4244: 'initializing' : conversion from 'const double' to 'const int', possible loss of data
+     1>Base.cpp(95): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Base.cpp(102): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Base.cpp(119): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(233) : see declaration of 'freopen'
+     1>Base.cpp(128): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>Base.cpp(130): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : see declaration of 'sscanf'
+     1>Base.cpp(147): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : see declaration of 'sscanf'
+     1>Base.cpp(154): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : see declaration of 'sscanf'
+     1>Base.cpp(157): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : see declaration of 'sscanf'
+     1>Base.cpp(159): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Base.cpp(160): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Base.cpp(161): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Base.cpp(171): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : see declaration of 'sscanf'
+     1>Base.cpp(193): warning C4305: '=' : truncation from '__int64' to 'float'
+     1>Base.cpp(200): warning C4018: '<' : signed/unsigned mismatch
+     1>Base.cpp(289): warning C4018: '<' : signed/unsigned mismatch
+     1>Base.cpp(260): warning C4101: 'x_m' : unreferenced local variable
+     1>Base.cpp(260): warning C4101: 'u_m' : unreferenced local variable
+     1>Base.cpp(260): warning C4101: 'v_m' : unreferenced local variable
+     1>Base.cpp(260): warning C4101: 'y_m' : unreferenced local variable
+     1>Base.cpp(260): warning C4101: 'z_m' : unreferenced local variable
+     1>Base.cpp(343): warning C4244: 'argument' : conversion from 'GLsizei' to 'float', possible loss of data
+     1>Base.cpp(748): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Base.cpp(765): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>Base.cpp(766): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Base.cpp(814): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>Base.cpp(815): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         bmp.cpp
+         bullet.cpp
+     1>c:\gamedev\openglfps-demo\ogl\bullet.h(32): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\gamedev\openglfps-demo\ogl\bullet.h(35): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>bullet.cpp(44): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>bullet.cpp(45): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>bullet.cpp(46): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         button.cpp
+         Collision.cpp
+     1>Collision.cpp(53): warning C4018: '<' : signed/unsigned mismatch
+     1>Collision.cpp(67): warning C4018: '<' : signed/unsigned mismatch
+     1>Collision.cpp(121): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Collision.cpp(167): warning C4018: '<' : signed/unsigned mismatch
+     1>Collision.cpp(169): warning C4305: '=' : truncation from 'double' to 'float'
+     1>Collision.cpp(204): warning C4553: '==' : operator has no effect; did you intend '='?
+     1>Collision.cpp(247): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         ColVector.cpp
+     1>ColVector.cpp(20): warning C4018: '<' : signed/unsigned mismatch
+         door.cpp
+         element.cpp
+         fakemodel.cpp
+         GLlists.cpp
+     1>GLlists.cpp(25): warning C4244: 'initializing' : conversion from 'const double' to 'const int', possible loss of data
+     1>GLlists.cpp(38): warning C4244: '+=' : conversion from 'const double' to 'int', possible loss of data
+     1>GLlists.cpp(39): warning C4244: '+=' : conversion from 'const double' to 'int', possible loss of data
+     1>GLlists.cpp(40): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>GLlists.cpp(41): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>GLlists.cpp(42): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>GLlists.cpp(43): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>GLlists.cpp(44): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>GLlists.cpp(47): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>GLlists.cpp(48): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>GLlists.cpp(49): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>GLlists.cpp(50): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>GLlists.cpp(51): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>GLlists.cpp(54): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>GLlists.cpp(55): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>GLlists.cpp(56): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>GLlists.cpp(57): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>GLlists.cpp(58): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>GLlists.cpp(61): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>GLlists.cpp(62): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>GLlists.cpp(63): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>GLlists.cpp(64): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>GLlists.cpp(65): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>GLlists.cpp(34): warning C4101: 'a' : unreferenced local variable
+     1>GLlists.cpp(35): warning C4101: 'b' : unreferenced local variable
+     1>GLlists.cpp(80): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>GLlists.cpp(111): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GLlists.cpp(112): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GLlists.cpp(113): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GLlists.cpp(114): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GLlists.cpp(148): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GLlists.cpp(149): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GLlists.cpp(150): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GLlists.cpp(151): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+         gui.cpp
+         interactive.cpp
+         lighting.cpp
+     1>lighting.cpp(34): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>lighting.cpp(36): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>lighting.cpp(38): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>lighting.cpp(40): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>lighting.cpp(42): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>lighting.cpp(49): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>lighting.cpp(52): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+         menu.cpp
+         model.cpp
+     1>model.cpp(47): warning C4018: '<' : signed/unsigned mismatch
+     1>model.cpp(56): warning C4018: '<' : signed/unsigned mismatch
+         ModelControl.cpp
+     1>c:\gamedev\openglfps-demo\ogl\bullet.h(32): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\gamedev\openglfps-demo\ogl\bullet.h(35): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>ModelControl.cpp(7): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>ModelControl.cpp(14): warning C4018: '<' : signed/unsigned mismatch
+     1>ModelControl.cpp(40): warning C4018: '<' : signed/unsigned mismatch
+     1>ModelControl.cpp(42): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         Output.cpp
+     1>Output.cpp(23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>Output.cpp(30): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>Output.cpp(38): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>Output.cpp(41): warning C4101: 'output' : unreferenced local variable
+         player.cpp
+         shape.cpp
+         polygon.cpp
+         Compiling...
+         solid.cpp
+         texLoad.cpp
+     1>texLoad.cpp(13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>texLoad.cpp(37): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+         vertex.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\GameDev\OpenGLFPS-Demo\Release\ogl.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\GameDev\OpenGLFPS-Demo\Release\ogl.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\GameDev\OpenGLFPS-Demo\Release\ogl.lib" /MACHINE:X86 /SAFESEH Release\Base.obj
+         Release\bmp.obj
+         Release\bullet.obj
+         Release\button.obj
+         Release\Collision.obj
+         Release\ColVector.obj
+         Release\door.obj
+         Release\element.obj
+         Release\fakemodel.obj
+         Release\GLlists.obj
+         Release\gui.obj
+         Release\interactive.obj
+         Release\lighting.obj
+         Release\menu.obj
+         Release\model.obj
+         Release\ModelControl.obj
+         Release\Output.obj
+         Release\player.obj
+         Release\shape.obj
+         Release\polygon.obj
+         Release\solid.obj
+         Release\texLoad.obj
+         Release\vertex.obj
+         Generating code
+     1>c:\gamedev\openglfps-demo\ogl\colvector.cpp(21): warning C4700: uninitialized local variable 'tmp' used
+         Finished generating code
+         ogl.vcxproj -> C:\GameDev\OpenGLFPS-Demo\Release\ogl.exe
+     1>Done Building Project "C:\GameDev\OpenGLFPS-Demo\ogl\ogl.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.87
